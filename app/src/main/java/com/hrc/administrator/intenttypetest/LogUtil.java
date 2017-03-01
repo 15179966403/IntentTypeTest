@@ -7,6 +7,7 @@ import android.util.Log;
  * 可以通过设置LEVEL的值来控制打印的Log类型
  * 只有当LEVEL的级别小于或等于对应日志级别的值时，才将日志打印出来
  * 将LEVEL的值设为NOTHING时，将不会打印出日志
+ * 发布程序时不需要讲Log一行行删除或注释了
  */
 
 public class LogUtil {
